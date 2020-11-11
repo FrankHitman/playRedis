@@ -1,0 +1,1 @@
+return redis.pcall('mset', KEYS[1], ARGV[1], KEYS[2], ARGV[2])
